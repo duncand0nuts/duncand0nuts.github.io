@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angus Maidment</title>
+    <description>Write your site description here. It will be used as your sites meta description as well!</description>
+    <link>http://www.angusmaidment.com/</link>
+    <atom:link href="http://www.angusmaidment.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 29 Sep 2015 18:22:19 +0100</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2015 18:22:19 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>

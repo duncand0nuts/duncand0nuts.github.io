@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
+<html lang="en">
 
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% else %}
-    {% include contact.html %}
-    {% endif %}
+{% include head.html %}
+
+<body>
+
+    {% include nav.html %}
+
+    {{ content }}
 
     {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
-    </body>
+
+</body>
+
 </html>
