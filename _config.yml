@@ -1,9 +1,9 @@
 # Site settings
 title: Angus Maidment
 header-img: img/prof.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: 
+email: angus@angusmaidment.com
+description: "I am Angus Maidment, and this is my site!"
+baseurl:
 url: "http://www.angusmaidment.com"
 twitter_username: KennyLog_ins
 github_username:  duncand0nuts
