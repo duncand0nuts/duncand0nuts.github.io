@@ -20,7 +20,7 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #00ffff;
+  color: #00ff00;
 }
 a:hover,
 a:focus {
@@ -394,4 +394,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+.jumbotron-fluid{
+  margin-bottom:0;
 }
