@@ -1,21 +1,25 @@
 # Site settings
-title: Angus Maidment
-header-img: img/prof.jpg
-email: angus@angusmaidment.com
-description: "I am Angus Maidment, and this is my site!"
-baseurl:
-url: "http://www.angusmaidment.com"
-twitter_username: KennyLog_ins
-github_username:  duncand0nuts
-facebook_username:  angusmaidment
-linkedin_username:  angus-maidment-6358b99a
+title:
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# User setting
+owner:
+email:
+facebook_username:
+twitter_username:
+github_username:
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here
+telephone:
+copyright:
+
+# API settings
+google_api_key:
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-kramdown:
-  input: GFM
