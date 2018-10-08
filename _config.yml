@@ -1,6 +1,6 @@
 # Site settings
-title:
-email:
+title: "heres a title"
+email: 
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -17,7 +17,7 @@ github_username:
 address:
   - line:
   - line:
-  # Feel free to add more lines here 
+  # Feel free to add more lines here
 telephone:
 copyright:
 
