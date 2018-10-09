@@ -2,32 +2,31 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>{{ site.owner }}</strong>
-        </h4>
-        <p>
-          {% for address in site.address %}
-          {{ address.line }}<br>
-          {% endfor %}
-        </p>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
-          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-        </ul>
         <br>
-        <ul class="list-inline">
+        <ul class="list-inline col-lg-offset-1">
           <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            <a href="https://twitter.com/blockchainbeard"><i class="fa fa-twitter fa-fw fa-3x services-bg"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            <a href="https://t.me/blockbeard"><i class="fa fa-paper-plane fa-fw fa-3x services-bg"></i></a>
           </li>
           <li>
-            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/angusmaidment/"><i class="fa fa-linkedin fa-fw fa-3x services-bg"></i></a>
+          </li>
+
+          <li>
+            <a href="https://github.com/duncand0nuts"><i class="fa fa-github-alt fa-fw fa-3x services-bg"></i></a>
+          </li>
+          <li>
+            <a href="https://earn.com/porterjustice"><i class="fa fa-envelope fa-fw fa-3x services-bg"></i></a>
+          </li>
+
+          <li>
+            <a href="https://stackexchange.com/users/4565162/kennylog-ins"><i class="fa fa-stackexchange fa-fw fa-3x services-bg"></i></a>
           </li>
         </ul>
         <hr class="small">
-        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+        <p class="text-muted">Copyright &copy; Angus Maidment 20{{ site.time | date: '%y' }}</p>
       </div>
     </div>
   </div>

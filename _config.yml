@@ -1,5 +1,5 @@
 # Site settings
-title: "heres a title"
+title: "heres a"
 email:
 description: > # this means to ignore newlines until "baseurl:"
   I'm angus, and this is my site!
@@ -7,9 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
+owner: "gggh"
+email: "ghg"
+facebook_username: "ghfdrg"
 twitter_username:
 github_username:
 address:
@@ -17,7 +17,7 @@ address:
   - line:
   # Feel free to add more lines here
 telephone:
-copyright:
+copyright: hshff
 
 # API settings
 google_api_key:

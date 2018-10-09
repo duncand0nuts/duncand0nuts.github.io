@@ -21,6 +21,7 @@ body {
     text-align: center;
     vertical-align: middle;
     color: #ff0080;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .text-vertical-center h0 {
@@ -81,7 +82,7 @@ hr.small {
     height: 100%;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    background: #4a4848d9;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -127,7 +128,7 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+    color: #ff0080;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -186,6 +187,16 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.services-bg {
+    background-color: #000000;
+    color: #ff0080;
+}
+
+.fa-pink{
+    color:#000000;
+}
+
+
 /* Callout */
 
 .callout {
@@ -204,6 +215,7 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-color: #000000;
 }
 
 .portfolio-item {
@@ -248,5 +260,5 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    background-color: #000000;
 }
